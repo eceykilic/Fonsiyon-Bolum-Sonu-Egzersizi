@@ -5,7 +5,7 @@ let counterDOM= document.querySelector(`#counter`)
 let increaseDOM = document.querySelector(`#increase`)
 let decreaseDOM = document.querySelector(`#decrease`)
 
-counterDOM.innetHTML = counter
+counterDOM.innerHTML = counter
 
 increaseDOM.addEventListener("click", clickEvent)
 decreaseDOM.addEventListener("click", clickEvent)
